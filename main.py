@@ -28,9 +28,14 @@ References:
 (5) Result: | Python String find() with Examples | https://sparkbyexamples.com/python/python-string-find-with-examples/#:~:text=find()%20method%20is%20used,character%20or%20String%20not%20found.
 (6) 3.11.6 Documentation » The Python Tutorial | https://docs.python.org/3.11/tutorial/index.html
 (7) dictionaries | https://docs.python.org/3.11/tutorial/datastructures.html#dictionaries
-
-
-
+(8) Bug | Google Search string | UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 23: character maps to <undefined> | https://www.google.com/search?q=UnicodeDecodeError%3A+%27charmap%27+codec+can%27t+decode+byte+0x90+in+position+23%3A+character+maps+to+%3Cundefined%3E&rlz=1C1YTUH_enIE1084IE1084&oq=UnicodeDecodeError%3A+%27charmap%27+codec+can%27t+decode+byte+0x90+in+position+23%3A+character+maps+to+%3Cundefined%3E&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHNjQzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+(9) Fix | You specify the encoding when you open the file: ```python      file = open(filename, encoding="utf8")   ``` | UnicodeDecodeError: 'charmap' codec can't decode byte X in position Y: character maps to <undefined> | StackOverflow | https://stackoverflow.com/questions/9233027/unicodedecodeerror-charmap-codec-cant-decode-byte-x-in-position-y-character
+(10) Implementation: | Google Search string | python read() method | https://www.google.com/search?q=python+read()+method&rlz=1C1YTUH_enIE1084IE1084&oq=python+read()+method&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDc3ODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+(11) Result: | Python File read() Method | W3Schools | https://www.w3schools.com/python/ref_file_read.asp
+(12) Google Search string: | python open() method | https://www.google.com/search?q=python+open()+method&rlz=1C1YTUH_enIE1084IE1084&oq=python+open()+method&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDc4MzNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+(13) Result: | Python open() Function | W3Schools | https://www.w3schools.com/python/ref_func_open.asp
+(14) Google Search string: | python open() function | https://www.google.com/search?q=python+open()+function&rlz=1C1YTUH_enIE1084IE1084&oq=python+open()+function&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yBggGEEUYPDIGCAcQRRhB0gEIOTYxN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+(15) Result: | open() | encoding='utf-8' | Python 3.11 | Documentation| https://docs.python.org/3.11/library/functions.html#open
 
 Note:
 Using python --version | Python 3.11.6
