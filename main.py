@@ -38,7 +38,16 @@ References:
 (15) Result: | open() | encoding='utf-8' | Python 3.11 | Documentation| https://docs.python.org/3.11/library/functions.html#open
 (16) Google Search string: | split at space in python | https://www.google.com/search?q=split+at+space+in+python&rlz=1C1YTUH_enIE1084IE1084&oq=split+at+space+in+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoF0gEINjkxNGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 (17) Result: | Python String split() Method | W3Schools | https://www.w3schools.com/python/ref_string_split.asp
-
+(18) Try It: | .split() | W3Schools | https://www.w3schools.com/python/trypython.asp?filename=demo_ref_string_split
+(19) Google Search string: | Wikipedia | https://www.google.com/search?q=Wikipedia&rlz=1C1YTUH_enIE1084IE1084&oq=Wikipedia&gs_lcrp=EgZjaHJvbWUyDggAEEUYJxg5GIAEGIoFMgYIARAjGCcyBwgCEAAYgAQyBggDEEUYPDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYQTIGCAcQBRhA0gEIMjc0M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+(20) Wikipedia | home page | https://www.wikipedia.org/
+(21) German Wikipedia article | Subject: Wikipedia | Language: German | https://de.wikipedia.org/wiki/Wikipedia
+(22) German Wikipedia article | Subject: Wikipedia | Language: German | https://de.wikipedia.org/wiki/Wikipedia
+(23) Site: Wikipedia | Subject: Wikipedia | Language: English | url: https://en.wikipedia.org/wiki/Wikipedia
+(24) Site: Wikipedia | Subject: Wikipedia | Language: French | url: https://fr.wikipedia.org/wiki/Wikip%C3%A9dia
+(25) Site: Wikipedia | Subject: Wikipedia | Language: German | url: https://de.wikipedia.org/wiki/Wikipedia
+(26) Site: Wikipedia | Subject: Wikipedia | Language: Spanish | url: https://es.wikipedia.org/wiki/Wikipedia
+(27) Site: Wikipedia | Subject: Wikipedia | Language: Italian | url: https://it.wikipedia.org/wiki/Wikipedia
 
 Note:
 Using python --version | Python 3.11.6
