@@ -60,7 +60,7 @@ languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 
 
 # outer loop:
 for languageSource in languageSources: 
-    fileSource = open(languageSource,"r")
+    fileSource = open(languageSource,"r", encoding="utf8") # open(filename, encoding="utf8")
     for word_is_line_Source in fileSource: # word_is_line_Source replaces lineSource (and more importantly wordSource) 
         # for wordSource in lineSource: # try commenting out this to try to solve letter printing at print 2
         # if wordSource in lineSource:
