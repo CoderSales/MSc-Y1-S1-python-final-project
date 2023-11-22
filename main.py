@@ -76,7 +76,9 @@ for languageSource in languageSources:
                     # is also present in the ____other_thing____variable____
                     # of the dolch word list for the current language
                     # is 
-                    print(word_per_line_Dolch)
+
+                    # print(word_per_line_Dolch) # comment out word print as too many
+                    
                     if wordSource == word_per_line_Dolch:
                         # get lang
                         currentLanguage = languageSource[6:languageSource.find(".")] # English # hopefully type is String 
