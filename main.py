@@ -68,41 +68,41 @@ for languageSource in languageSources:
             # inner loop:
             for languageDolch in languageDolchs:
                 fileDolch = open(languageDolch,"r")
-                for lineDolch in fileDolch:
-                    for wordDolch in lineDolch:
+                for word_per_line_Dolch in fileDolch: # note each line is a word, so do not go down a level, else will have letters not words # was wordDolch
+                    # for word_per_line_Dolch in lineDolch: # word_per_line_Dolch was wordDolch
 
-                        # and finally,
-                        # if the current word of the current language Source text
-                        # is also present in the ____other_thing____variable____
-                        # of the dolch word list for the current language
-                        # is 
-                        print(wordDolch)
-                        if wordSource == wordDolch:
-                            # get lang
-                            currentLanguage = languageSource[6:languageSource.find(".")] # English # hopefully type is String 
-                            # so if word is English then,
-                            # we get:
-                            # get both list:
-                            # current_list = makingDictionaryOfWordsPerLanguage[currentLanguage][0].listEnglish # [] to start off with
-                            # debugging above line:
+                    # and finally,
+                    # if the current word of the current language Source text
+                    # is also present in the ____other_thing____variable____
+                    # of the dolch word list for the current language
+                    # is 
+                    print(word_per_line_Dolch)
+                    if wordSource == word_per_line_Dolch:
+                        # get lang
+                        currentLanguage = languageSource[6:languageSource.find(".")] # English # hopefully type is String 
+                        # so if word is English then,
+                        # we get:
+                        # get both list:
+                        # current_list = makingDictionaryOfWordsPerLanguage[currentLanguage][0].listEnglish # [] to start off with
+                        # debugging above line:
 
-                            # now: do same for list: or reverse order
-                            language_key_for_list = 'list' + currentLanguage
+                        # now: do same for list: or reverse order
+                        language_key_for_list = 'list' + currentLanguage
 
 
-                            # now: construct variable name count + currentLanguage
-                            # for use as key for inner object in dictionary makingDictionaryOfWordsPerLanguage
-                            language_key_for_count = 'count' + currentLanguage
-                            
+                        # now: construct variable name count + currentLanguage
+                        # for use as key for inner object in dictionary makingDictionaryOfWordsPerLanguage
+                        language_key_for_count = 'count' + currentLanguage
+                        
 
-                            current_list = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_list]
-                            # print(current_list) # comment print to try to reduce excess output
-                            # and count:
-                            current_count = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_count] # 0 to start off with
-                            # append to list:
-                            current_list.append(wordSource) # appendwhat?: append wordSource
-                            # add to count:
-                            current_count=current_count+1
+                        current_list = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_list]
+                        # print(current_list) # comment print to try to reduce excess output
+                        # and count:
+                        current_count = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_count] # 0 to start off with
+                        # append to list:
+                        current_list.append(wordSource) # appendwhat?: append wordSource
+                        # add to count:
+                        current_count=current_count+1
 
 # Next do a count of which count is most:
 # So: 
