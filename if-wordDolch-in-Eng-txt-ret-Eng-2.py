@@ -9,9 +9,6 @@ file = open(file_name_dolch, 'r', encoding='utf8')
 for word in file:
     if '\n' in word:
         word=word.replace("\n", "")
-    # print(word)
-    # break
     if wordDolch == word: # words from file
-        # print('hi')
         lang = file_name_dolch.rstrip('.txt')
         print(lang)
