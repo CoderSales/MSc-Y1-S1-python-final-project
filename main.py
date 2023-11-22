@@ -65,8 +65,9 @@ languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 
 for languageSource in languageSources: 
     fileSource = open(languageSource,"r", encoding="utf8") # open(filename, encoding="utf8")
     for word_is_line_Source in fileSource: # word_is_line_Source replaces lineSource (and more importantly wordSource) 
-        
-        for wordSource in word_is_line_Source: # try commenting out this to try to solve letter printing at print 2 # lineSource to word_is_line_Source
+        list_of_individual_words = word_is_line_Source.split(' ') 
+        # replace word_is_line_Source with list_of_individual_words
+        for wordSource in list_of_individual_words: # try commenting out this to try to solve letter printing at print 2 # lineSource to word_is_line_Source
             # if wordSource in lineSource:
                 # do something
                 # pass
