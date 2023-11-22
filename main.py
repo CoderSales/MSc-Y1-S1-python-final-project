@@ -119,15 +119,15 @@ for languageSource in languageSources:
 # then come back up and define arguments a-e:
 
 # define variables that will be used as argumwntsto call max function:
-a = makingDictionaryOfWordsPerLanguage.English.countEnglish
+a = makingDictionaryOfWordsPerLanguage["English"]['countEnglish']
 
-b = makingDictionaryOfWordsPerLanguage.French.countFrench
+b = makingDictionaryOfWordsPerLanguage["French"]["countFrench"]
 
-c = makingDictionaryOfWordsPerLanguage.German.countGermnan
+c = makingDictionaryOfWordsPerLanguage["German"]["countGerman"]
 
-d = makingDictionaryOfWordsPerLanguage.Spanish.countSpanish
+d = makingDictionaryOfWordsPerLanguage["Spanish"]["countSpanish"]
 
-e = makingDictionaryOfWordsPerLanguage.Italian.countItalian
+e = makingDictionaryOfWordsPerLanguage["Italian"]["countItalian"]
 
 languageOfArticle = maximum_checker(a,b,c,d,e)
 
