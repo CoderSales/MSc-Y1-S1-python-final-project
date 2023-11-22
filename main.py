@@ -36,6 +36,9 @@ References:
 (13) Result: | Python open() Function | W3Schools | https://www.w3schools.com/python/ref_func_open.asp
 (14) Google Search string: | python open() function | https://www.google.com/search?q=python+open()+function&rlz=1C1YTUH_enIE1084IE1084&oq=python+open()+function&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIICAIQABgWGB4yCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yBggGEEUYPDIGCAcQRRhB0gEIOTYxN2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
 (15) Result: | open() | encoding='utf-8' | Python 3.11 | Documentation| https://docs.python.org/3.11/library/functions.html#open
+(16) Google Search string: | split at space in python | https://www.google.com/search?q=split+at+space+in+python&rlz=1C1YTUH_enIE1084IE1084&oq=split+at+space+in+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMg0IAxAAGIYDGIAEGIoFMg0IBBAAGIYDGIAEGIoF0gEINjkxNGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+(17) Result: | Python String split() Method | W3Schools | https://www.w3schools.com/python/ref_string_split.asp
+
 
 Note:
 Using python --version | Python 3.11.6
@@ -62,6 +65,7 @@ languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 
 for languageSource in languageSources: 
     fileSource = open(languageSource,"r", encoding="utf8") # open(filename, encoding="utf8")
     for word_is_line_Source in fileSource: # word_is_line_Source replaces lineSource (and more importantly wordSource) 
+        
         for wordSource in word_is_line_Source: # try commenting out this to try to solve letter printing at print 2 # lineSource to word_is_line_Source
             # if wordSource in lineSource:
                 # do something
