@@ -96,7 +96,7 @@ for languageSource in languageSources:
                             
 
                             current_list = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_list]
-                            print(current_list)
+                            # print(current_list) # comment print to try to reduce excess output
                             # and count:
                             current_count = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_count] # 0 to start off with
                             # append to list:
