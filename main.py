@@ -70,6 +70,9 @@ for languageSource in languageSources:
         # (from last line): for every word in each line of the source text for a given language:
         # (now, look at next bit of code): go through each word in all 5 language dolch word lists (really inefficient, I know):
         print(word_is_line_Source) # print 2 # prints only letters
+
+        # bug returns lines not words
+
         # inner loop:
         for languageDolch in languageDolchs:
             fileDolch = open(languageDolch,"r")
