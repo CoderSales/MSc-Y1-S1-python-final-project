@@ -129,8 +129,6 @@ d = makingDictionaryOfWordsPerLanguage["Spanish"]["countSpanish"]
 
 e = makingDictionaryOfWordsPerLanguage["Italian"]["countItalian"]
 
-languageOfArticle = maximum_checker(a,b,c,d,e)
-
 def maximum_checker(a,b,c,d,e):
     maximum=a
     if b>maximum:
@@ -142,3 +140,5 @@ def maximum_checker(a,b,c,d,e):
     if e>maximum:
         maximum=e
     return maximum
+
+languageOfArticle = maximum_checker(a,b,c,d,e)
