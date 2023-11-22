@@ -72,7 +72,7 @@ for languageSource in languageSources:
                 # do something
                 # pass
             
-            # print(wordSource) # comment print 3 working
+            # print(wordSource) # comment print 3 working # prints words
             
             # (from last line): for every word in each line of the source text for a given language:
             # (now, look at next bit of code): go through each word in all 5 language dolch word lists (really inefficient, I know):
@@ -94,6 +94,9 @@ for languageSource in languageSources:
 
                     # print(word_per_line_Dolch) # comment out word print as too many # working print 1
                     
+                    print(word_per_line_Dolch) # print 4 working # prints words
+
+
                     if word_is_line_Source == word_per_line_Dolch:
                         # get lang
                         currentLanguage = languageSource[6:languageSource.find(".")] # English # hopefully type is String 
