@@ -1,4 +1,4 @@
-from open-holder import opener
+from open_holder import opener
 
 def list_of_Dolchs():
     dolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
