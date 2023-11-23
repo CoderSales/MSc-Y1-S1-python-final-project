@@ -29,6 +29,7 @@ countItalian = 0
 # outer loop:
 fileSource = open(languageSource,"r", encoding="utf8")
 for word_is_line_Source in fileSource:
+    print(word_is_line_Source)
     list_of_individual_words = word_is_line_Source.split(' ') 
 
     for wordSource in list_of_individual_words: # wordSource not reused
@@ -67,5 +68,5 @@ for word_is_line_Source in fileSource:
 
 # decide which language the sourceText file is
 
-if wordSource is in 'EnglishEasy.txt':
+if wordSource in 'EnglishEasy.txt':
     countEnglish++
