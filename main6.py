@@ -1,6 +1,4 @@
 # LISTS
-# languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt'] # easyMode
-# languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # Choose a language file from the above list
 
@@ -8,11 +6,8 @@
 
 
 # Switch to easy mode:
-# languageSource = 'sourceEnglish.txt' # easyMode
 languageSource = 'sourceEnglishEasy.txt'
 
-
-# languageDolch = 'English.txt' # easyMode
 
 languageDolch = 'EnglishEasy.txt'
 
@@ -20,10 +15,7 @@ languageDolch = 'EnglishEasy.txt'
 
 # LANGUAGE NAMES
 English = 'English'
-# French = 'French'
-# German = 'German'
-# Spanish = 'Spanish'
-# Italian = 'Italian'
+
 
 
 # COUNTS
@@ -42,10 +34,8 @@ for word_is_line_Source in fileSource:
     for wordSource in list_of_individual_words: # wordSource not reused
 
         # inner loop:
-        # for languageDolch in languageDolchs: # easyMode
         fileDolch = open(languageDolch,"r")
         for word_per_line_Dolch in fileDolch:
-            # print(word_per_line_Dolch) # comment out word print as too many # working print 1
             print(word_per_line_Dolch) # print 4 working # prints words
             if word_is_line_Source == word_per_line_Dolch:
                 currentLanguage = languageSource[6:languageSource.find(".")]
