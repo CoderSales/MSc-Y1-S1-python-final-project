@@ -29,13 +29,13 @@ countItalian = 0
 # outer loop:
 fileSource = open(languageSource,"r", encoding="utf8")
 for word_is_line_Source in fileSource:
-    print(word_is_line_Source)
+    # print(word_is_line_Source)
     list_of_individual_words = word_is_line_Source.split(' ') 
 
     for wordSource in list_of_individual_words: # wordSource not reused
         print(wordSource)
         # inner loop:
-        fileDolch = open('sourceEnglishEasy.txt',"r", encoding = 'utf8')
+        fileDolch = open('sourceEnglish.txt',"r", encoding = 'utf8')
         for line_Dolch in fileDolch:
             # print(line_Dolch) # print 4 working # prints words
             if word_is_line_Source == line_Dolch:
@@ -45,7 +45,7 @@ for word_is_line_Source in fileSource:
                 current_list = language_key_for_list
 
 # increment count of each language count for which the (word from sourceText) is present
-                if wordSource in 'EnglishEasy.txt':
+                if wordSource in 'English.txt':
                     countEnglish=countEnglish+1
 
 
