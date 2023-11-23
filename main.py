@@ -52,6 +52,8 @@ References:
 (25) Site: Wikipedia | Subject: Wikipedia | Language: German | url: https://de.wikipedia.org/wiki/Wikipedia
 (26) Site: Wikipedia | Subject: Wikipedia | Language: Spanish | url: https://es.wikipedia.org/wiki/Wikipedia
 (27) Site: Wikipedia | Subject: Wikipedia | Language: Italian | url: https://it.wikipedia.org/wiki/Wikipedia
+(28) .replace() | w3schools | txt = "I like bananas"; x = txt.replace("bananas", "apples"); print(x) | https://www.w3schools.com/python/ref_string_replace.asp
+
 
 Note:
 Using python --version | Python 3.11.6
