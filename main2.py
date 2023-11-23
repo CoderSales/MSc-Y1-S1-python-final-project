@@ -1,13 +1,5 @@
 languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
-
-makingDictionaryOfWordsPerLanguage = {
-    'English': {'listEnglish' : [], 'countEnglish' : 0},
-    'French':  {'listFrench' :  [], 'countFrench' : 0},
-    'German' : {'listGerman' : [], 'countGerman' : 0},
-    'Spanish' : {'listSpanish' : [], 'countSpanish' : 0},
-    'Italian' : {'listItalian' : [], 'countItalian' : 0}
-}
-
+languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 English = 'English'
 French = 'French'
@@ -15,22 +7,16 @@ German = 'German'
 Spanish = 'Spanish'
 Italian = 'Italian'
 
-listEnglish = []
 countEnglish = 0
 
-listFrench = []
 countFrench = 0
 
-listGerman = []
 countGerman = 0
 
-listSpanish = []
 countSpanish = 0
 
-listItalian = []
 countItalian = 0
 
-languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # outer loop:
 for languageSource in languageSources: 
@@ -50,20 +36,20 @@ for languageSource in languageSources:
                         currentLanguage = languageSource[6:languageSource.find(".")]
                         language_key_for_list = 'list' + currentLanguage
                         language_key_for_count = 'count' + currentLanguage
-                        current_list = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_list]
+                        current_list = language_key_for_list
                         
-                        current_count = makingDictionaryOfWordsPerLanguage[currentLanguage][language_key_for_count] # 0 to start off with
+                        current_count = language_key_for_count # 0 to start off with
                         
                         # append to list:
                         current_list.append(wordSource) # appendwhat?: append wordSource
                         # add to count:
                         current_count=current_count+1
 
-a = makingDictionaryOfWordsPerLanguage["English"]['countEnglish']
-b = makingDictionaryOfWordsPerLanguage["French"]["countFrench"]
-c = makingDictionaryOfWordsPerLanguage["German"]["countGerman"]
-d = makingDictionaryOfWordsPerLanguage["Spanish"]["countSpanish"]
-e = makingDictionaryOfWordsPerLanguage["Italian"]["countItalian"]
+a = countEnglish
+b = countFrench
+c = countGerman
+d = countSpanish
+e = countItalian
 
 def maximum_checker(a,b,c,d,e):
     maximum=a
