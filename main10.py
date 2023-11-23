@@ -159,7 +159,10 @@ for word_is_line_Source in fileSource:
     # increment count of each language count for which the (word from sourceText) is present
                     if wordSource in 'English.txt':
                         countEnglish=countEnglish+1
-
+                    if wordSource in line_Dolch:
+                        countEnglish=countEnglish+1
+                    if 'comme' in line_Dolch:
+                        countFrench = countFrench+1
 
     # increment count
 
@@ -194,18 +197,23 @@ print(countEnglish)
 #  uncomment:
 
 
-# def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
-#     maximum=countEnglish
-#     if countFrench>maximum:
-#         maximum=countFrench
-#     if countGerman>maximum:
-#         maximum=countGerman
-#     if countSpanish>maximum:
-#         maximum=countSpanish
-#     if countItalian>maximum:
-#         maximum=countItalian
-#     return maximum
+def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
+    maximum=countEnglish
+    if countFrench>maximum:
+        maximum=countFrench
+    if countGerman>maximum:
+        maximum=countGerman
+    if countSpanish>maximum:
+        maximum=countSpanish
+    if countItalian>maximum:
+        maximum=countItalian
+    return maximum
 
-# languageOfArticle = maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian)
+languageOfArticle = maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian)
 # print(languageOfArticle)
 # print(countEnglish)
+
+print("countFrench = ",countFrench)
+
+if countEnglish > countFrench:
+    print("The text is in English")
