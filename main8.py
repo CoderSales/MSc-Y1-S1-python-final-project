@@ -38,7 +38,7 @@ for word_is_line_Source in fileSource:
         for line_Dolch in fileDolch:
             # print(line_Dolch) # print 4 working # prints words
             if word_is_line_Source == line_Dolch:
-                currentLanguage = languageSource[6:languageSource.find(".")]
+                currentLanguage = 'English'
                 language_key_for_list = 'list' + currentLanguage
                 language_key_for_count = 'count' + currentLanguage
                 current_list = language_key_for_list
