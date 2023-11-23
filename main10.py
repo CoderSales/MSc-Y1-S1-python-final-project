@@ -1,4 +1,8 @@
 """
+Problem 2:
+You have five texts, each a different language. You want to be able to detect the language for
+each of the texts. You want to be able to repeat that on other texts of the same languages.
+
 - This project looks at 5 Latin character languages: English, French, German, Spanish, Italian
 - 2 lists: 1. list of Dolch words, 2. list of source texts
 - Each list contains 5 different languages
