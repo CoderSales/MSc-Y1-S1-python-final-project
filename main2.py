@@ -8,13 +8,9 @@ Spanish = 'Spanish'
 Italian = 'Italian'
 
 countEnglish = 0
-
 countFrench = 0
-
 countGerman = 0
-
 countSpanish = 0
-
 countItalian = 0
 
 
