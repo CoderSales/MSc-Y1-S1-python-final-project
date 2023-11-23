@@ -1,13 +1,21 @@
 # LISTS
-languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
+# languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
 # languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # Choose a language file from the above list
 
 # e.g. sourceEnglish.txt
 
+
+# Switch to easy mode:
 # languageSource = 'sourceEnglish.txt'
 languageSource = 'sourceEnglishEasy.txt'
+
+
+# languageDolch = 'English.txt'
+
+languageDolch = 'EnglishEasy.txt'
+
 
 
 # LANGUAGE NAMES
