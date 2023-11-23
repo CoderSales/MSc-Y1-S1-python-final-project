@@ -35,9 +35,9 @@ for word_is_line_Source in fileSource:
 
         # inner loop:
         fileDolch = open('sourceEnglishEasy.txt',"r", encoding = 'utf8')
-        for word_per_line_Dolch in fileDolch:
-            print(word_per_line_Dolch) # print 4 working # prints words
-            if word_is_line_Source == word_per_line_Dolch:
+        for line_Dolch in fileDolch:
+            # print(line_Dolch) # print 4 working # prints words
+            if word_is_line_Source == line_Dolch:
                 currentLanguage = languageSource[6:languageSource.find(".")]
                 language_key_for_list = 'list' + currentLanguage
                 language_key_for_count = 'count' + currentLanguage
