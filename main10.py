@@ -144,7 +144,7 @@ for word_is_line_Source in fileSource:
     list_of_individual_words = word_is_line_Source.split(' ') 
 
     for wordSource in list_of_individual_words: # wordSource not reused
-        print(wordSource)
+        # print(wordSource)
         # inner loop:
         for languageDolch in languageDolchs: # easyMode
             fileDolch = open('sourceEnglish.txt',"r", encoding = 'utf8')
@@ -188,7 +188,7 @@ print(type(countEnglish))
 
 
 
-print(countEnglish)
+print("count of English dolch words is: ",countEnglish)
 
 # decide which language the sourceText file is
 
@@ -216,4 +216,6 @@ languageOfArticle = maximum_checker(countEnglish,countFrench,countGerman,countSp
 print("countFrench = ",countFrench)
 
 if countEnglish > countFrench:
+    print("count of English Dolch words is greater than count of French Dolch words.")
+    print()
     print("The text is in English")
