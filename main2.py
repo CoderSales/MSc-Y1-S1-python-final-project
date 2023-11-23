@@ -66,7 +66,7 @@ for word_is_line_Source in fileSource:
                 current_count=current_count+1
 
 
-# decide which language the sourceText file
+# decide which language the sourceText file is
 
 # max checker
 
