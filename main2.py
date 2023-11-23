@@ -1,5 +1,5 @@
 # LISTS
-# languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
+# languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt'] # easyMode
 # languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # Choose a language file from the above list
@@ -8,11 +8,11 @@
 
 
 # Switch to easy mode:
-# languageSource = 'sourceEnglish.txt'
+# languageSource = 'sourceEnglish.txt' # easyMode
 languageSource = 'sourceEnglishEasy.txt'
 
 
-# languageDolch = 'English.txt'
+# languageDolch = 'English.txt' # easyMode
 
 languageDolch = 'EnglishEasy.txt'
 
@@ -42,7 +42,7 @@ for word_is_line_Source in fileSource:
     for wordSource in list_of_individual_words:
 
         # inner loop:
-        for languageDolch in languageDolchs:
+        # for languageDolch in languageDolchs: # easyMode
             fileDolch = open(languageDolch,"r")
             for word_per_line_Dolch in fileDolch:
                 # print(word_per_line_Dolch) # comment out word print as too many # working print 1
