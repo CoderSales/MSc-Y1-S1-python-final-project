@@ -1,12 +1,16 @@
+# LISTS
 languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
 languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
+# LANGUAGE NAMES
 English = 'English'
 French = 'French'
 German = 'German'
 Spanish = 'Spanish'
 Italian = 'Italian'
 
+
+# COUNTS
 countEnglish = 0
 countFrench = 0
 countGerman = 0
@@ -33,11 +37,18 @@ for languageSource in languageSources:
                         language_key_for_list = 'list' + currentLanguage
                         language_key_for_count = 'count' + currentLanguage
                         current_list = language_key_for_list
-                        
+
+
+# count
+
+
                         current_count = language_key_for_count # 0 to start off with
                         
                         # add to count:
                         current_count=current_count+1
+
+
+# 
 
 def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
     maximum=countEnglish
