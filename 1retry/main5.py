@@ -1,3 +1,5 @@
+from forDolch import language
+
 languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
 
 makingDictionaryOfWordsPerLanguage = {
@@ -76,6 +78,8 @@ def dolchinator( all_the_dolch_words ):
 languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # outer loop:
+
+
 for languageSource in languageSources: 
     fileSource = open(languageSource,"r", encoding="utf8")
     for word_is_line_Source in fileSource:
