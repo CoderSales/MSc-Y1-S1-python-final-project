@@ -36,35 +36,36 @@ for word_is_line_Source in fileSource:
     for wordSource in list_of_individual_words: # wordSource not reused
         print(wordSource)
         # inner loop:
-        fileDolch = open('sourceEnglish.txt',"r", encoding = 'utf8')
-        for line_Dolch in fileDolch:
-            # print(line_Dolch) # print 4 working # prints words
-            if word_is_line_Source == line_Dolch:
-                currentLanguage = 'English'
-                language_key_for_list = 'list' + currentLanguage
-                language_key_for_count = 'count' + currentLanguage
-                current_list = language_key_for_list
+        for languageDolch in languageDolchs: # easyMode
+            fileDolch = open('sourceEnglish.txt',"r", encoding = 'utf8')
+            for line_Dolch in fileDolch:
+                # print(line_Dolch) # print 4 working # prints words
+                if word_is_line_Source == line_Dolch:
+                    currentLanguage = 'English'
+                    language_key_for_list = 'list' + currentLanguage
+                    language_key_for_count = 'count' + currentLanguage
+                    current_list = language_key_for_list
 
-# increment count of each language count for which the (word from sourceText) is present
-                if wordSource in 'English.txt':
-                    countEnglish=countEnglish+1
-
-
-# increment count
+    # increment count of each language count for which the (word from sourceText) is present
+                    if wordSource in 'English.txt':
+                        countEnglish=countEnglish+1
 
 
-                current_count_name = language_key_for_count # 0 to start off with
-                current_count=countEnglish
-                # add to count:
-                
-                # identifies language
+    # increment count
 
-                current_count_name # =current_count+1
 
-                # next need TODO:
-                # make current_count variable
+                    current_count_name = language_key_for_count # 0 to start off with
+                    current_count=countEnglish
+                    # add to count:
+                    
+                    # identifies language
 
-                current_count = current_count+1
+                    current_count_name # =current_count+1
+
+                    # next need TODO:
+                    # make current_count variable
+
+                    current_count = current_count+1
 
 
 
