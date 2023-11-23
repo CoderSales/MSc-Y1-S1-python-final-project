@@ -6,7 +6,8 @@ languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Ita
 
 # e.g. sourceEnglish.txt
 
-languageSource = 'sourceEnglish.txt'
+# languageSource = 'sourceEnglish.txt'
+languageSource = 'sourceEnglishEasy.txt'
 
 
 # LANGUAGE NAMES
