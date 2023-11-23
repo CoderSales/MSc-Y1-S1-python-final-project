@@ -1,6 +1,6 @@
 from languagesDolchs import list_of_Dolchs
 
-def looper_function_through_dolchs(one_specified_language_dolch_object):
+def looper_through_dolchs(one_specified_language_dolch_object):
     """
     should this parameter be a name of same?
     """
