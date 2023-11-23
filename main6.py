@@ -52,7 +52,7 @@ for word_is_line_Source in fileSource:
 
                 current_count_name = language_key_for_count # 0 to start off with
                 current_count=countEnglish
-                print(type(current_count)) # string # issue
+                # print(type(current_count)) # string # issue
                 # add to count:
                 
                 # identifies language
