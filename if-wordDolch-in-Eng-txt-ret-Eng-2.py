@@ -2,9 +2,13 @@
 file_name_dolch="English.txt"
 wordDolch = 'the'
 file = open(file_name_dolch, 'r', encoding='utf8')
+
+
 for word in file:
     if '\n' in word:
         word=word.replace("\n", "")
+
+
     if wordDolch == word: # words from file
         lang = file_name_dolch.rstrip('.txt')
         print(lang)

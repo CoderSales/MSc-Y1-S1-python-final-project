@@ -14,6 +14,21 @@ def strip_line_breaks(word):
         word=word.replace("\n", "")
         return word
 
+
+def compare_words_and_if_match_return_English_language(wordDolch, word, file_name_dolch):
+    """
+    3 Parameters:
+
+    wordDolch : is the current Dolch word
+    word : is the current word from the sourceTextWiki file
+    file_name_dolch : gets .txt extension stripped to give English (the language (to be used later for counting English words) )
+    """
+    if wordDolch == word: # words from file
+        lang = file_name_dolch.rstrip('.txt')
+        print(lang)
+        return lang
+
+
 languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # outer loop:
