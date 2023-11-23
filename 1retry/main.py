@@ -85,6 +85,22 @@ Using python --version | Python 3.11.6
         https://www.freecodecamp.org/news/add-to-dict-in-python/
 (33) is it possible in python to call a function for each increment of a for loop? | https://www.google.com/search?q=is+it+possible+in+python+to+call+a+function+for+each+increment+of+a+for+loop%3F&rlz=1C1YTUH_enIE1084IE1084&oq=is+it+possible+in+python+to+call+a+function+for+each+increment+of+a+for+loop%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEJMTUzNzRqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
         manual for loop | https://stackoverflow.com/questions/54714945/create-a-function-that-will-increment-by-one-when-called
+    ```python
+    def make_counter():
+        count = -1
+        def _():
+            count += 1
+            return count
+        return _
+
+    count_row = make_counter()
+
+    Now count_row will return a new value on each call:
+    >>> count_row()
+    0
+    >>> count_row()
+    1
+    ```
 
 """
 
