@@ -50,10 +50,19 @@ for word_is_line_Source in fileSource:
 # increment count
 
 
-                current_count = language_key_for_count # 0 to start off with
+                current_count_name = language_key_for_count # 0 to start off with
                 print(type(current_count)) # string # issue
                 # add to count:
-                current_count=current_count+1
+                
+                # identifies language
+
+                current_count_name # =current_count+1
+
+                # next need TODO:
+                # make current_count variable
+
+                current_count = current_count+1
+
 
 
 # decide which language the sourceText file is
