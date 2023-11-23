@@ -9,6 +9,27 @@ makingDictionaryOfWordsPerLanguage = {
 }
 
 
+English = 'English'
+French = 'French'
+German = 'German'
+Spanish = 'Spanish'
+Italian = 'Italian'
+
+listEnglish = []
+countEnglish = 0
+
+listFrench = []
+countFrench = 0
+
+listGerman = []
+countGerman = 0
+
+listSpanish = []
+countSpanish = 0
+
+listItalian = []
+countItalian = 0
+
 languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # outer loop:
