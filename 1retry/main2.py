@@ -10,9 +10,9 @@ makingDictionaryOfWordsPerLanguage = {
 
 def strip_line_breaks(word):
     for word in file:
-    if '\n' in word:
-        word=word.replace("\n", "")
-        return word
+        if '\n' in word:
+            word=word.replace("\n", "")
+            return word
 
 
 def compare_words_and_if_match_return_English_language(wordDolch, word, file_name_dolch):
