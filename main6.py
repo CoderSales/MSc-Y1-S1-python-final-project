@@ -34,7 +34,7 @@ for word_is_line_Source in fileSource:
     for wordSource in list_of_individual_words: # wordSource not reused
 
         # inner loop:
-        fileDolch = open(languageDolch,"r")
+        fileDolch = open('sourceEnglishEasy.txt',"r", encoding = 'utf8')
         for word_per_line_Dolch in fileDolch:
             print(word_per_line_Dolch) # print 4 working # prints words
             if word_is_line_Source == word_per_line_Dolch:
@@ -51,7 +51,7 @@ for word_is_line_Source in fileSource:
 
 
                 current_count = language_key_for_count # 0 to start off with
-                
+                print(type(current_count)) # string # issue
                 # add to count:
                 current_count=current_count+1
 
