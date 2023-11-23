@@ -39,7 +39,7 @@ fileSource = open(languageSource,"r", encoding="utf8")
 for word_is_line_Source in fileSource:
     list_of_individual_words = word_is_line_Source.split(' ') 
 
-    for wordSource in list_of_individual_words:
+    for wordSource in list_of_individual_words: # wordSource not reused
 
         # inner loop:
         # for languageDolch in languageDolchs: # easyMode
