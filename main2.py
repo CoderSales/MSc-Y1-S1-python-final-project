@@ -43,15 +43,15 @@ for word_is_line_Source in fileSource:
 
         # inner loop:
         # for languageDolch in languageDolchs: # easyMode
-            fileDolch = open(languageDolch,"r")
-            for word_per_line_Dolch in fileDolch:
-                # print(word_per_line_Dolch) # comment out word print as too many # working print 1
-                print(word_per_line_Dolch) # print 4 working # prints words
-                if word_is_line_Source == word_per_line_Dolch:
-                    currentLanguage = languageSource[6:languageSource.find(".")]
-                    language_key_for_list = 'list' + currentLanguage
-                    language_key_for_count = 'count' + currentLanguage
-                    current_list = language_key_for_list
+        fileDolch = open(languageDolch,"r")
+        for word_per_line_Dolch in fileDolch:
+            # print(word_per_line_Dolch) # comment out word print as too many # working print 1
+            print(word_per_line_Dolch) # print 4 working # prints words
+            if word_is_line_Source == word_per_line_Dolch:
+                currentLanguage = languageSource[6:languageSource.find(".")]
+                language_key_for_list = 'list' + currentLanguage
+                language_key_for_count = 'count' + currentLanguage
+                current_list = language_key_for_list
 
 # increment count of each language count for which the (word from sourceText) is present
 
@@ -60,10 +60,10 @@ for word_is_line_Source in fileSource:
 # increment count
 
 
-                    current_count = language_key_for_count # 0 to start off with
-                    
-                    # add to count:
-                    current_count=current_count+1
+                current_count = language_key_for_count # 0 to start off with
+                
+                # add to count:
+                current_count=current_count+1
 
 
 # decide which language the sourceText file
