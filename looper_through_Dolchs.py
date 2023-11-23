@@ -5,7 +5,7 @@ def looper_through_dolchs(one_specified_language_dolch_object):
     should this parameter be a name of same?
     """
 
-    saved_list_of_dolchs = use list_of_Dolchs()
+    saved_list_of_dolchs = list_of_Dolchs()
 
     # loop (del comment)
     if one_specified_language_dolch_object in saved_list_of_dolchs:
