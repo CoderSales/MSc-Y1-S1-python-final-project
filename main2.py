@@ -8,6 +8,12 @@ makingDictionaryOfWordsPerLanguage = {
     'Italian' : {'listItalian' : [], 'countItalian' : 0}
 }
 
+def strip_line_breaks(word):
+    for word in file:
+    if '\n' in word:
+        word=word.replace("\n", "")
+        return word
+
 languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # outer loop:
