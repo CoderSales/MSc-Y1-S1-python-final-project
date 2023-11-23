@@ -6,7 +6,7 @@ languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Ita
 
 # e.g. sourceEnglish.txt
 
-languageSource = sourceEnglish
+languageSource = 'sourceEnglish.txt'
 
 
 # LANGUAGE NAMES
@@ -44,8 +44,11 @@ for word_is_line_Source in fileSource:
                     language_key_for_count = 'count' + currentLanguage
                     current_list = language_key_for_list
 
+# decide which language the word is from
 
-# count
+
+
+# increment count
 
 
                     current_count = language_key_for_count # 0 to start off with
@@ -53,6 +56,8 @@ for word_is_line_Source in fileSource:
                     # add to count:
                     current_count=current_count+1
 
+
+# decide which language the sourceText file
 
 # max checker
 
