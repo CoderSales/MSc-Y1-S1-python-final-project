@@ -29,6 +29,50 @@ def compare_words_and_if_match_return_English_language(wordDolch, word, file_nam
         return lang
 
 
+def drive_single_dolch_file(languageDolchs):
+    """
+    
+    """
+    for language in languageDolchs:
+        single_dolch_file(language)
+
+def single_dolch_file(language):
+    """
+    takes input: language list
+    output: one Dolch language list
+    """
+    for language in languageDolchs:
+        # do something:
+
+        return language
+
+
+def file_reader(file, read="r", encoding="utf8"):
+    """
+    takes a file
+    uses open()
+        - with parameters:
+            1. file
+            2. "r" # for read
+            3. encoding="utf8" # kwarg specifying to use unicode encoding (for characters like a with an accent acute and other non ASCII characters)
+    Q/ Possibly only need to specify file at runtime?
+
+    returns something
+    what is variable? (returned)
+    """
+    variable=open(file, read, encoding)
+    return variable
+
+
+
+def dolchinator( all_the_dolch_words ):
+    """
+    outputs a single dolch word
+    """
+    for dolch in all_the_dolch_words:
+        return dolch
+
+
 languageSources = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 
 # outer loop:
