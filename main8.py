@@ -67,5 +67,5 @@ for word_is_line_Source in fileSource:
 
 # decide which language the sourceText file is
 
-if thing is in English:
+if word is in 'EnglishEasy.txt':
     countEnglish++
