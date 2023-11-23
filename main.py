@@ -79,6 +79,12 @@ Using python --version | Python 3.11.6
     numbers = (1, 2, 3, 4)
     result = map(addition, numbers)
     ```
+(32) dict append python
+        https://www.google.com/search?q=dict+append+python&newwindow=1&sca_esv=584778317&rlz=1C1YTUH_enIE1084IE1084&sxsrf=AM9HkKlgSWIquaiH0eAG6RvtOg6AT1Haqg%3A1700714700245&ei=zNheZdvMDouBhbIP8Jy-oAE&ved=0ahUKEwjb4sn8p9mCAxWLQEEAHXCODxQQ4dUDCBA&uact=5&oq=dict+append+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmRpY3QgYXBwZW5kIHB5dGhvbjIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwAzIKEAAYRxjWBBiwA0jaB1CKB1iKB3ABeAGQAQCYAQCgAQCqAQC4AQPIAQD4AQHiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp
+        update()
+        https://www.freecodecamp.org/news/add-to-dict-in-python/
+
+
 """
 
 languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
