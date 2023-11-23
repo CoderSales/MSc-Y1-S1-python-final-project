@@ -6,10 +6,10 @@
 
 
 # Switch to easy mode:
-languageSource = 'sourceEnglishEasy.txt'
+languageSource = 'sourceEnglish.txt'
 
 
-languageDolch = 'EnglishEasy.txt'
+languageDolch = 'English.txt'
 
 
 
