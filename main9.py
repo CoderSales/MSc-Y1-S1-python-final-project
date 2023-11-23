@@ -1,4 +1,5 @@
 # LISTS
+languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt'] # easyMode
 
 # Choose a language file from the above list
 
