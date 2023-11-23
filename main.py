@@ -63,7 +63,22 @@ References:
      loads 1 file from another
 Note:
 Using python --version | Python 3.11.6
-
+(31) index of or char At in python
+        https://www.google.com/search?q=index+of+or+char+At+in+python&rlz=1C1YTUH_enIE1084IE1084&oq=index+of+or+char+At+in+python+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigXSAQg2MDE4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+     How to get char from string by index?
+        https://stackoverflow.com/questions/8848294/how-to-get-char-from-string-by-index
+    map python
+        https://www.google.com/search?q=map+python&rlz=1C1YTUH_enIE1084IE1084&oq=map+python+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIMCAQQABhDGIAEGIoFMgcIBRAAGIAEMgcIBhAAGIAEMgYIBxBFGD3SAQgxOTE5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+    Python map() function
+        https://www.geeksforgeeks.org/python-map-function/
+    ```python
+    def addition(n):
+        return n + n
+    
+    # We double all numbers using map()
+    numbers = (1, 2, 3, 4)
+    result = map(addition, numbers)
+    ```
 """
 
 languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
