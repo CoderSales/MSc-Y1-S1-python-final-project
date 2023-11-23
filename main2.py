@@ -44,7 +44,7 @@ for word_is_line_Source in fileSource:
                     language_key_for_count = 'count' + currentLanguage
                     current_list = language_key_for_list
 
-# decide which language the word is from
+# increment count of each language count for which the (word from sourceText) is present
 
 
 
