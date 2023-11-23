@@ -36,8 +36,6 @@ for languageSource in languageSources:
                         
                         current_count = language_key_for_count # 0 to start off with
                         
-                        # append to list:
-                        current_list.append(wordSource) # appendwhat?: append wordSource
                         # add to count:
                         current_count=current_count+1
 
