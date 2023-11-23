@@ -53,7 +53,7 @@ References:
 (26) Site: Wikipedia | Subject: Wikipedia | Language: Spanish | url: https://es.wikipedia.org/wiki/Wikipedia
 (27) Site: Wikipedia | Subject: Wikipedia | Language: Italian | url: https://it.wikipedia.org/wiki/Wikipedia
 (28) .replace() | w3schools | txt = "I like bananas"; x = txt.replace("bananas", "apples"); print(x) | https://www.w3schools.com/python/ref_string_replace.asp
-
+(29) wireframe | Google Slides | https://docs.google.com/presentation/d/1VeGCvKP2BdCCTK8M-keXfscWV4U_7R38t5k2OwkeokI/edit?usp=sharing
 
 Note:
 Using python --version | Python 3.11.6
