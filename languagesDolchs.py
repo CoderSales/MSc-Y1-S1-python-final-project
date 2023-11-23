@@ -7,5 +7,5 @@ def list_of_Dolchs():
         # dict_object append is for list
         # how to with dict?
         # update()
-        
-        return dict_with_file_objects_for_each_Dolch
+        dict_object_dolchs.update(opened)
+    return dict_object_dolchs
