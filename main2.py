@@ -41,23 +41,17 @@ for languageSource in languageSources:
                         # add to count:
                         current_count=current_count+1
 
-a = countEnglish
-b = countFrench
-c = countGerman
-d = countSpanish
-e = countItalian
-
-def maximum_checker(a,b,c,d,e):
-    maximum=a
-    if b>maximum:
-        maximum=b
-    if c>maximum:
-        maximum=c
-    if d>maximum:
-        maximum=d
-    if e>maximum:
-        maximum=e
+def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
+    maximum=countEnglish
+    if countFrench>maximum:
+        maximum=countFrench
+    if countGerman>maximum:
+        maximum=countGerman
+    if countSpanish>maximum:
+        maximum=countSpanish
+    if countItalian>maximum:
+        maximum=countItalian
     return maximum
 
-languageOfArticle = maximum_checker(a,b,c,d,e)
+languageOfArticle = maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian)
 print(languageOfArticle)
