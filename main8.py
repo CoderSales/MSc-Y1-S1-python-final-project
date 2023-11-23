@@ -67,23 +67,3 @@ for word_is_line_Source in fileSource:
 
 # decide which language the sourceText file is
 
-# max checker
-
-#  uncomment:
-
-
-# def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
-#     maximum=countEnglish
-#     if countFrench>maximum:
-#         maximum=countFrench
-#     if countGerman>maximum:
-#         maximum=countGerman
-#     if countSpanish>maximum:
-#         maximum=countSpanish
-#     if countItalian>maximum:
-#         maximum=countItalian
-#     return maximum
-
-# languageOfArticle = maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian)
-# print(languageOfArticle)
-# print(countEnglish)
