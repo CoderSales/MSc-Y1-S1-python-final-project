@@ -54,7 +54,13 @@ References:
 (27) Site: Wikipedia | Subject: Wikipedia | Language: Italian | url: https://it.wikipedia.org/wiki/Wikipedia
 (28) .replace() | w3schools | txt = "I like bananas"; x = txt.replace("bananas", "apples"); print(x) | https://www.w3schools.com/python/ref_string_replace.asp
 (29) wireframe | Google Slides | https://docs.google.com/presentation/d/1VeGCvKP2BdCCTK8M-keXfscWV4U_7R38t5k2OwkeokI/edit?usp=sharing
-
+(30) call python file from another
+        https://www.google.com/search?q=how+to+call+from+another+python+file&rlz=1C1YTUH_enIE1084IE1084&oq=how+to+call+from+another+python+file&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTIGCAcQRRhA0gEINTkwM2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+        https://www.w3docs.com/snippets/python/how-can-i-make-one-python-file-run-another.html#:~:text=To%20run%20one%20Python%20file,function%20or%20the%20subprocess%20module.&text=This%20will%20execute%20the%20code,in%20the%20main.py%20file.&text=This%20will%20run%20the%20other.py%20script%20as%20a%20separate%20process.
+     without exec
+        https://www.google.com/search?q=how+to+call+from+another+python+file+without+exec+&newwindow=1&sca_esv=584750333&rlz=1C1YTUH_enIE1084IE1084&sxsrf=AM9HkKkaQTIdcLfA8TLoRF8KM8TmqmqxYA%3A1700707821659&ei=7b1eZc7wJ8CFhbIPr8-qkAo&ved=0ahUKEwiOm86sjtmCAxXAQkEAHa-nCqIQ4dUDCBA&oq=how+to+call+from+another+python+file+without+exec+&gs_lp=Egxnd3Mtd2l6LXNlcnAiMmhvdyB0byBjYWxsIGZyb20gYW5vdGhlciBweXRob24gZmlsZSB3aXRob3V0IGV4ZWMgMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigATIIECEYFhgeGB1I2LgCUKkGWL0bcAF4AZABAJgBZKABzgWqAQM5LjG4AQzIAQD4AQHCAgoQABhHGNYEGLADwgIGEAAYFhgewgILEAAYgAQYigUYhgPCAgcQIRigARgKwgIGECEYDRgV4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp
+        https://python-forum.io/thread-37119.html
+     loads 1 file from another
 Note:
 Using python --version | Python 3.11.6
 
