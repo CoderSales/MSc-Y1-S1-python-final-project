@@ -1,4 +1,3 @@
-# plot.py
 from file4 import load
 
 file = 'English.txt'

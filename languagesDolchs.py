@@ -1,7 +1,6 @@
-def (1, language):
+from open-holder import opener
+
+def list_of_Dolchs():
     languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
-    text_extension = '.txt'
-    if language == 'English'
-        file_name = language + text_extension
-        if language in languageDolchs:
-            return languageDolchs.charAt or indexOf
+    opened = opener()
+    return dict_with_file_objects_for_each_Dolch
