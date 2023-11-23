@@ -20,10 +20,10 @@ languageDolch = 'EnglishEasy.txt'
 
 # LANGUAGE NAMES
 English = 'English'
-French = 'French'
-German = 'German'
-Spanish = 'Spanish'
-Italian = 'Italian'
+# French = 'French'
+# German = 'German'
+# Spanish = 'Spanish'
+# Italian = 'Italian'
 
 
 # COUNTS
@@ -84,3 +84,4 @@ def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItali
 
 languageOfArticle = maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian)
 print(languageOfArticle)
+print(countEnglish)
