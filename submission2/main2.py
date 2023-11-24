@@ -6,6 +6,7 @@ French = 'French'
 German = 'German'
 Spanish = 'Spanish'
 Italian = 'Italian'
+languageList = [English, French, German, Spanish, Italian]
 countEnglish = 0
 countFrench = 0
 countGerman = 0
