@@ -8,10 +8,12 @@ countFrench = 0
 countGerman = 0
 countSpanish = 0
 countItalian = 0
+
 languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
 languageSourceList = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 languageList = [English, French, German, Spanish, Italian]
 countList = [countEnglish, countFrench, countGerman, countSpanish, countItalian]
+
 for languageSource in languageSourceList:
     fileSource = open(languageSource,"r", encoding="utf8")
     for word_is_line_Source in fileSource:
