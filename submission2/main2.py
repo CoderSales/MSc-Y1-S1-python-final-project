@@ -20,25 +20,26 @@ for languageSource in languageSourceList:
         list_of_individual_words = word_is_line_Source.split(' ') 
         for wordSource in list_of_individual_words:
             for languageDolch in languageDolchs:
-                fileDolch = open('sourceEnglish.txt',"r", encoding = 'utf8')
-                for line_Dolch in fileDolch:
-                    if word_is_line_Source == line_Dolch:
-                        currentLanguage = 'English'
-                        language_key_for_list = 'list' + currentLanguage
-                        language_key_for_count = 'count' + currentLanguage
-                        current_list = language_key_for_list
-                        for language in languageSourceList: # pair 1 # working
-                            for count in countList: # and pair 1 # working
-                                if wordSource in language:
-                                    countEnglish=countEnglish+1
-                                if wordSource in line_Dolch:
-                                    countEnglish=countEnglish+1
-                                if 'comme' in line_Dolch:
-                                    countFrench = countFrench+1
-                                current_count_name = language_key_for_count
-                                current_count=countEnglish
-                                current_count_name
-                                current_count = current_count+1
+                for i in range(len(languageDolchs)):
+                    fileDolch = open(languageSourceList[i],"r", encoding = 'utf8')
+                    for line_Dolch in fileDolch:
+                        if word_is_line_Source == line_Dolch:
+                            currentLanguage = 'English'
+                            language_key_for_list = 'list' + currentLanguage
+                            language_key_for_count = 'count' + currentLanguage
+                            current_list = language_key_for_list
+                            for language in languageSourceList: # pair 1 # working
+                                for count in countList: # and pair 1 # working
+                                    if wordSource in language:
+                                        countEnglish=countEnglish+1
+                                    if wordSource in line_Dolch:
+                                        countEnglish=countEnglish+1
+                                    if 'comme' in line_Dolch:
+                                        countFrench = countFrench+1
+                                    current_count_name = language_key_for_count
+                                    current_count=countEnglish
+                                    current_count_name
+                                    current_count = current_count+1
 print("count of English dolch words is: ",countEnglish)
 def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
     maximum=countEnglish
