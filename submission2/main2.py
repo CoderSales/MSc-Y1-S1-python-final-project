@@ -1,10 +1,12 @@
-languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
-languageSourceList = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
 English = 'English'
 French = 'French'
 German = 'German'
 Spanish = 'Spanish'
 Italian = 'Italian'
+
+languageDolchs = ['English.txt', 'French.txt', 'German.txt', 'Spanish.txt', 'Italian.txt']
+languageSourceList = ['sourceEnglish.txt', 'sourceFrench.txt', 'sourceGerman.txt', 'sourceSpanish.txt', 'sourceItalian.txt']
+
 languageList = [English, French, German, Spanish, Italian]
 countEnglish = 0
 countFrench = 0
