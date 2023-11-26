@@ -16,14 +16,14 @@ countList = [countEnglish, countFrench, countGerman, countSpanish, countItalian]
 
 for languageSource in languageSourceList:
     fileSource = open(languageSource,"r", encoding="utf8")
-    for word_is_line_Source in fileSource:
-        list_of_individual_words = word_is_line_Source.split(' ') 
+    for line_Source in fileSource:
+        list_of_individual_words = line_Source.split(' ') 
         for wordSource in list_of_individual_words:
             for languageDolch in languageDolchs:
                 for i in range(len(languageDolchs)):
                     fileDolch = open(languageSourceList[i],"r", encoding = 'utf8')
                     for line_Dolch in fileDolch:
-                        if word_is_line_Source == line_Dolch:
+                        if line_Source == line_Dolch:
                             currentLanguage = 'English'
                             language_key_for_list = 'list' + currentLanguage
                             language_key_for_count = 'count' + currentLanguage
