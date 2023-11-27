@@ -123,7 +123,19 @@ Using python --version | Python 3.11.6
 (36) Google Search string: | delete last git commit | https://www.google.com/search?q=delete+last+git+commit&rlz=1C1YTUH_enIE1084IE1084&oq=delete+last+git+commit&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yDQgHEAAYChgWGB4Y8QQyCAgIEAAYFhgeMggICRAAGBYYHtIBCDUwMjJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
      Git delete last commit - GitHub Gist | https://gist.github.com/cutiko/0b1615c63504a940877541362cc51211#:~:text=To%20remove%20the%20last%20commit,remove%20the%20last%20two%20commits.
 (37) len() | Getting Started With Python’s len() | https://realpython.com/len-python-function/#:~:text=The%20function%20len()%20is,with%20many%20different%20data%20types.
+(38) W3Schools
 
+for x in thisdict.values():
+  print(x)
+
+for x in thisdict.keys():
+  print(x)
+
+for x, y in thisdict.items():
+  print(x, y)
+
+    https://www.w3schools.com/python/python_dictionaries_loop.asp
+(39) thisdict.items(): | Tryit Editor | https://www.w3schools.com/python/trypython.asp?filename=demo_dictionary_loop_items
 """
 
 
