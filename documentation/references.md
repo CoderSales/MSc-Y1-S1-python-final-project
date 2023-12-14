@@ -14,3 +14,12 @@ print(city)
 
 https://www.javatpoint.com/how-to-unpack-a-dictionary-in-python#:~:text=However%2C%20there%20are%20times%20when,'%3A%20'New%20York'%7D
 
+____
+
+Unpacking object variables in python
+
+Reference read not used
+
+https://stackoverflow.com/questions/18972873/unpacking-object-variables-in-python
+
+____
