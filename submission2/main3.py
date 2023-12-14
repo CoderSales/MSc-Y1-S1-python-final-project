@@ -34,53 +34,58 @@ languageSourceList = {'1':'sourceEnglish.txt', '2':'sourceFrench.txt', '3':'sour
 languageList = [English, French, German, Spanish, Italian]
 countList = [countEnglish, countFrench, countGerman, countSpanish, countItalian]
 
-for i, languageSource in enumerate(languageSourceList): # Bug: i contains stuff?
+print('line 37: languageSourceList.keys()',languageSourceList.keys())
+languageSourceListValues=languageSourceList.values()
+print('line 38: languageSourceList.values()',languageSourceList.values())
+for languageSourceListKey, languageSourceListValue in languageSourceList.items():
+    print('line 40: for languageSourceListKey, languageSourceListValue in languageSourceList.items(): | languageSourceListKey:', languageSourceListKey, 'languageSourceListValue', languageSourceListValue)
+    for i, languageSource in enumerate(languageSourceListValues): # Bug: i contains stuff?
 
-    print("\n", "iline 29, oline 2: i: ", i, sep = "") # Question: what does this return? # Answer: 0 #########################################
+        print("\n", "iline 29, oline 2: i: ", i, sep = "") # Question: what does this return? # Answer: 0 #########################################
 
-    print('\n', 'iline 31, ','oline 3: ', 'languageSource: ', languageSource, '\n', sep="") # languageSource: sourceEnglish.txt ###############
-    
-    ######################################################################################################################################################
+        print('\n', 'iline 31, ','oline 3: ', 'languageSource: ', languageSource, '\n', sep="") # languageSource: sourceEnglish.txt ###############
+        
+        ######################################################################################################################################################
 
-    print('################################################# DEBUGGING STARTS HERE (SEE NEXT 3 LINES): v #######################################################' '\n\n', 'fileSource = open(languageSource,"r", encoding="utf8")', '\n\n', '^ ABOVE LINE PRODUCES | THE FOLLOWING TRACEBACK ERROR: v', '\n', sep='')
-    
-    fileSource = open(languageSource,"r", encoding="utf8") # Error ################################## # Cause: can't open 1, and languageSource=1
-    
-    #Traceback (most recent call last):
-    #File "C:\Users\steph\OneDrive\Documents\45-semester-1\module-language-engineering\10-week-10-on\1-py-final-proj\MSc-Y1-S1-python-final-project\submission2\main2.py", line 24, in <module>
-    #    fileSource = open(languageSource,"r", encoding="utf8")
-    #                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    #FileNotFoundError: [Errno 2] No such file or directory: '1'
-    
+        print('################################################# DEBUGGING STARTS HERE (SEE NEXT 3 LINES): v #######################################################' '\n\n', 'fileSource = open(languageSource,"r", encoding="utf8")', '\n\n', '^ ABOVE LINE PRODUCES | THE FOLLOWING TRACEBACK ERROR: v', '\n', sep='')
+        
+        fileSource = open(languageSource,"r", encoding="utf8") # Error ################################## # Cause: can't open 1, and languageSource=1
+        
+        #Traceback (most recent call last):
+        #File "~\MSc-Y1-S1-python-final-project\submission2\main2.py", line 24, in <module>
+        #    fileSource = open(languageSource,"r", encoding="utf8")
+        #                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        #FileNotFoundError: [Errno 2] No such file or directory: '1'
+        
 
-    print("fileSource object:",fileSource) # <_io.TextIOWrapper name='sourceEnglish.txt' mode='r' encoding='utf8'>
-    for j, line_Source in enumerate(fileSource):
-        # print("j: ", j) # 0
-        print("line_Source: ", line_Source,"",sep="") # line 1
-        break
-        list_of_individual_words = line_Source.split(' ') 
-        for wordSource in list_of_individual_words:
-            for languageDolch in languageDolchs:
-                for i in range(len(languageDolchs)):
-                    fileDolch = open(languageSourceList[i],"r", encoding = 'utf8')
-                    for line_Dolch in fileDolch:
-                        if line_Source == line_Dolch:
-                            currentLanguage = 'English'
-                            language_key_for_list = 'list' + currentLanguage
-                            language_key_for_count = 'count' + currentLanguage
-                            current_list = language_key_for_list
-                            for language in languageSourceList: # pair 1 # working
-                                for count in countList: # and pair 1 # working
-                                    if wordSource in language:
-                                        countEnglish=countEnglish+1
-                                    if wordSource in line_Dolch:
-                                        countEnglish=countEnglish+1
-                                    if 'comme' in line_Dolch:
-                                        countFrench = countFrench+1
-                                    current_count_name = language_key_for_count
-                                    current_count=countEnglish
-                                    current_count_name
-                                    current_count = current_count+1
+        print("fileSource object:",fileSource) # <_io.TextIOWrapper name='sourceEnglish.txt' mode='r' encoding='utf8'>
+        for j, line_Source in enumerate(fileSource):
+            # print("j: ", j) # 0
+            print("line_Source: ", line_Source,"",sep="") # line 1
+            break
+            list_of_individual_words = line_Source.split(' ') 
+            for wordSource in list_of_individual_words:
+                for languageDolch in languageDolchs:
+                    for i in range(len(languageDolchs)):
+                        fileDolch = open(languageSourceList[i],"r", encoding = 'utf8')
+                        for line_Dolch in fileDolch:
+                            if line_Source == line_Dolch:
+                                currentLanguage = 'English'
+                                language_key_for_list = 'list' + currentLanguage
+                                language_key_for_count = 'count' + currentLanguage
+                                current_list = language_key_for_list
+                                for language in languageSourceList: # pair 1 # working
+                                    for count in countList: # and pair 1 # working
+                                        if wordSource in language:
+                                            countEnglish=countEnglish+1
+                                        if wordSource in line_Dolch:
+                                            countEnglish=countEnglish+1
+                                        if 'comme' in line_Dolch:
+                                            countFrench = countFrench+1
+                                        current_count_name = language_key_for_count
+                                        current_count=countEnglish
+                                        current_count_name
+                                        current_count = current_count+1
 print("count of English dolch words is:",countEnglish) # end -3
 def maximum_checker(countEnglish,countFrench,countGerman,countSpanish,countItalian):
     maximum=countEnglish
